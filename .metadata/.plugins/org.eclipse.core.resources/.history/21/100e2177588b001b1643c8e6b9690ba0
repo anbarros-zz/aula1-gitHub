@@ -1,0 +1,14 @@
+package curso_programacao;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int y = 4;
+		System.out.println("Olá Mundo!");
+		System.out.print("Olá Mundo!");
+		System.out.println("Número é " + y);
+
+	}
+
+}

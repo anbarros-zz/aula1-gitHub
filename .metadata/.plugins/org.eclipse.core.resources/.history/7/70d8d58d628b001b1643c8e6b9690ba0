@@ -1,0 +1,19 @@
+package curso_programacao;
+
+public class Strings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String original = " - tetsts Java CFVA - ";
+		String s1 = original.toLowerCase();
+		String s2 = original.toUpperCase();
+		String s3 = original.trim();
+		
+		System.out.println("Valor Original Lower " + s1);
+		System.out.println("Valor Original upper " + s2);
+		System.out.println("Valor Original trim " + s3);
+
+	}
+
+}

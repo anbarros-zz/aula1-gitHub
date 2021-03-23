@@ -1,0 +1,23 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+public class scanner_ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int x , y;
+		x = 5 ;
+		y = 3 ;
+			
+		int resultado = x +y;
+		System.out.println("Digite dois numeros");
+		x = sc.nextInt();
+		x = sc.nextInt();
+		System.out.println("voce digitou " + x);
+		System.out.println("voce digitou " + y);
+		System.out.println("Soma " + resultado);
+	}
+
+}
